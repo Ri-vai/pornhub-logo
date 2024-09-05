@@ -2,6 +2,10 @@
   <div class="text-white mt-12">
     <h3 class="text-2xl font-semibold text-custom-primary mb-1">FAQ</h3>
     <v-expansion-panels variant="accordion" mandatory="force">
+      <v-expansion-panel
+        text="Create your personalized logo in the iconic style of popular platforms like Pornhub or Onlyfans! Our logo generator allows you to customize text and design a logo that’s perfect for personal avatars, brand identities, and illustrations. Whether you're looking for a bold, recognizable logo or a unique touch for your digital presence, our tool offers easy-to-use features that produce professional results in seconds. Stand out online with a logo that captures attention! No design skills required – just type, customize, and download."
+        title="What can Pornhub.logo do?"
+      ></v-expansion-panel>
       <v-expansion-panel title="How to use this generator?">
         <template v-slot:text>
           The generator is very simple to use. You can get a logo in just 4 steps:
@@ -19,6 +23,6 @@
         text="The generated logo fully belongs to you. You can use it freely for any purposes. Though credit is always appreciated."
         title="Can I use the generated logo for personal or commercial purposes?"
       ></v-expansion-panel>
-    </v-expansion-panels>
+      </v-expansion-panels>
   </div>
 </template>
