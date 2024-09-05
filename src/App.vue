@@ -1,6 +1,5 @@
 <template>
   <div id="app" class="container mx-auto py-12 px-6 max-w-[893px]">
-    <Ribbon class="z-50"></Ribbon>
     <div class="text-4xl font-black p-5 my-6 text-center">
       <logo></logo>
     </div>
@@ -11,7 +10,7 @@
       <div
         class="flex flex-col md:flex-row gap-2 md:gap-16 text-xl font-semibold items-center mb-12 justify-center"
       >
-        <router-link to="/about">About</router-link>
+        <!-- <router-link to="/about">About</router-link> -->
         <router-link to="/" class="pb">
           <span class="prefix">Porn</span>
           <span class="postfix">hub</span>
@@ -30,8 +29,7 @@
     <router-view />
     <Slogan />
     <Faq />
-    <Author />
-    <Copyright class="pb-4" />
+    <Copyright class="pb-4 pt-10" />
   </div>
 </template>
 

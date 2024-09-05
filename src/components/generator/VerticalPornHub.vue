@@ -126,9 +126,6 @@
 
     <div class="download-share">
       <ExportBtn />
-      <v-btn @click="twitter" color="#1da1f2"
-        ><v-icon icon="mdi-twitter" class="mr-0.5"></v-icon> Tweet</v-btn
-      >
     </div>
   </div>
 </template>
